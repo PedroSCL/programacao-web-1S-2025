@@ -1,25 +1,15 @@
-let num1 = 10, num2 = 5;
+let numA = 10;
+let numB = 5;
+let numC;
 
-//adição
-let soma = num1 + num2;
-console.log("Resultado da soma entre " + num1 + " e " + num2 + " é " + soma);
+numC = numA + numB;
+console.log(`Resultado da adição entre ${numA} e ${numB} é ${numC}`);
 
-//subtração
-let subtracao = num1 - num2;
-console.log("Resultado da subtração entre " + num1 + " e " + num2 + " é " + subtracao);
+numC = numA - numB;
+console.log(`Resultado da subtração entre ${numA} e ${numB} é ${numC}`);
 
-//multiplicação
-let multiplicacao = num1 * num2;
-console.log("Resultado da multiplicação entre " + num1 + " e " + num2 + " é " + multiplicacao);
+numC = numA * numB;
+console.log(`Resultado da multiplicação entre ${numA} e ${numB} é ${numC}`);
 
-//divisão
-let divisao = num1 / num2;
-console.log("Resultado da divisão entre " + num1 + " e " + num2 + " é " + divisao);
-
-//resto da divisão
-let modulo = num1 % num2;
-console.log("Resultado do resto da divisão entre " + num1 + " e " + num2 + " é " + modulo);
-
-//exponenciação
-let exponenciacao = num1 ** num2;
-console.log("Resultado da exponenciação entre " + num1 + " e " + num2 + " é " + exponenciacao);
+numC = numA / numB;
+console.log(`Resultado da divisão entre ${numA} e ${numB} é ${numC}`);
